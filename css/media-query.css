@@ -1,0 +1,131 @@
+@media (max-width: 53em) {
+
+    .skill-row {
+        width: 80vw;
+    }
+
+}
+
+@media (max-width: 39em) {
+    .profile {
+        width: 60%;
+    }
+
+    .mountain-img {
+        width: 80%;
+    }
+
+    .skill-row {
+        width: 90vw;
+    }
+
+    .contact-me {
+        width: 60vw;
+    }
+    
+}
+
+
+@media (max-width: 32em) {
+
+    .contact-me {
+        width: 70vw;
+    }
+
+    .skill-row {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 70vw;
+        justify-content: center;
+        align-content: center;
+        row-gap: 1.2rem;
+        margin-top: 3.2rem;
+    }
+    .skill-row-img {
+        justify-self: center;
+    }
+
+    .change-position {
+        grid-column: 1/2;
+        grid-row: 1 / 2;
+    }
+}
+
+
+@media (max-width: 26em) {
+    h1 {
+        font-size: 3.2rem;
+    }
+    .profile {
+        width: 80vw;
+    }
+}
+
+
+@media (max-width: 22em) {
+
+    .html {
+        font-size: 55%;
+    }
+    .profile {
+        width: 90vw;
+    }
+
+    .skill-row-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contact-me {
+        width: 80vw;
+    }
+
+    .skill-row {
+        row-gap: 0;
+    }
+}
+
+
+@media (max-width:18.75em){
+
+    h1 {
+        font-size: 2.6rem;
+    }
+    p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .bottom-cloud {
+        display: none;
+    }
+
+    .skill-row {
+        width: 95vw;
+        justify-content: center;
+
+    }
+
+    .skill-row-img {
+        justify-self: center;
+    }
+    .contact-me {
+        width: 95vw;
+    }
+}
+
+@media (max-width: 15em) {
+    .links {
+        flex-direction: column;
+    }
+    p {
+        font-size: 10px;
+        line-height: 2;
+        font-weight: 600;
+    }
+
+    .skill-row-img {
+        width: 100px;
+        height: 100px;
+    }
+}
