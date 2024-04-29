@@ -69,6 +69,7 @@ h3 {
 .bottom-container a:link,.bottom-container a:visited  {
 /*     color: #11999e; */
      color: #862e9c;
+    
     text-decoration: none;
     transition: 200ms all ease-in;
 
